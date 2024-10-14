@@ -1,0 +1,7 @@
+# Solutions
+
+## Other Solutions
+
+```rust
+
+```
