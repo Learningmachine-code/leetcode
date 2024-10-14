@@ -1,7 +1,0 @@
-# Solutions
-
-## Other Solutions
-
-```rust
-
-```
