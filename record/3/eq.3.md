@@ -1,4 +1,5 @@
 # main
+
 ```rust
 use leetcode::Solution;
 fn main() {
@@ -8,8 +9,11 @@ fn main() {
 
 }
 ```
+
 # Solutions
+
 ## 参考答案
+
 ```rust
 pub struct Solution {}
 impl Solution {
@@ -30,6 +34,7 @@ impl Solution {
 ```
 
 ## 尝试用hashmap实现的我的答案
+
 ```rust
 pub struct Solution {}
 use std::collections::HashMap;
@@ -55,6 +60,8 @@ impl Solution {
 ```
 
 ## 试试另一个hashmap函数
+
 ```rust
 
 ```
+
