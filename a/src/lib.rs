@@ -15,14 +15,18 @@ impl Solution {
         left: &mut usize,
         right: &mut usize,
     ) {
-        if v[*middle] == v[*left] {
+        if v[*middle] == v[*left] && *middle - *left == 1 {
+            *length = 2;
             *left -= 1;
         }
-        if v[*middle] == v[*right] {
+        if v[*middle] == v[*right] && *right - *middle == 1 {
+            *length = 2;
             *right += 1;
         }
         if v[*left] == v[*right] {
-            *length += 1;
+            *length += 2;
+            *left -= 1;
+            *right += 1;
             return Self::find();
         }
     }
